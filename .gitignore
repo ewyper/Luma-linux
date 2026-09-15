@@ -1,0 +1,42 @@
+# Build output
+/build/
+/build-*/
+
+# Generated root filesystem
+/rootfs/
+
+# Toolchain
+/tools/
+
+# Downloaded source archives
+/sources/*.tar
+/sources/*.tar.gz
+/sources/*.tar.xz
+/sources/*.tar.zst
+/sources/*.tar.bz2
+/sources/*.zip
+
+# Extracted source trees
+/sources/linux-*/
+sources/binutils-*/
+sources/gcc-*/
+sources/glibc-*/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Temporary / partial build artifacts
+/rootfs-glibc-partial/
+
+# All downloaded and extracted upstream sources
+/sources/*

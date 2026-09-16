@@ -64,9 +64,9 @@ The initial goal is to build a minimal self-hosting Linux system from source bef
 
 ### Phase 0 — Bootstrap
 
-- [x] Build target binutils
-- [x] Build initial GCC
-- [x] Install Linux userspace headers
+- [ ] Build target binutils
+- [ ] Build initial GCC
+- [ ] Install Linux userspace headers
 - [ ] Build and integrate glibc
 - [ ] Complete the initial toolchain
 
